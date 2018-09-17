@@ -10,9 +10,9 @@ ketik "git init" inisialisasi git pada project
 
 ketik "git remote add origin https://github.com/fisheroes/Laravel.git" menghubungkan file project ke repository github
 
-ketik "git add ." menambahkan file project
+ketik "git add ." menambahkan file project berdasarkan .gitignore
 
-ketik "git commit -m "Init commit"" menyimpan file project untuk diantar ke repository
+ketik "git commit -m "Init commit"" menyimpan file project ke Head beserta record untuk diantar ke repository
 
 ketik "git push -u origin master" memindahkan file ke repository github
 
@@ -37,3 +37,7 @@ ketik "heroku buildpacks:set heroku/php" untuk set build project ke php
 "$ git push heroku master" deploy ke heroku
 
 buka project hasil deploy -> setting -> config vars, kemudian isi variabel app_name,env,key,url berdasarkan file .env pada root project laravel
+
+buka link http://laravelsimple.herokuapp.com/ untuk melihat hasilnya
+
+*buka link diatas dengan SSL http, karena terdapat script yang belum terauthorizing menyebabkan tampilan dengan https tidak meload asset bootstrap dengan benar. Cara lain dengan klik logo tameng di sebelah kanan url -> load unsafe script. Nextime akan segera diperbaiki
