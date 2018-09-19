@@ -1,8 +1,8 @@
 <html>
     <head>
         <title>simpleCRUD - @yield('title')</title>
-        <link rel="stylesheet" href="{{ secure_asset(asset('css/app.css')) }}">
-        <link rel="stylesheet" href="{{ secure_asset(asset('css/all.css')) }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/all.css') }}">
     </head>
     <body>
         <div class="container" style="text-align: center">
@@ -11,8 +11,8 @@
                 Writable form
             @show
         </div>
-        <script type="text/javascript" src="{{ secure_asset(asset('js/app.js')) }}"></script>
-        <script type="text/javascript" src="{{ secure_asset(asset('js/all.js')) }}"></script>
+        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
         <script>
             $(document).ready(function() {
                 /////
