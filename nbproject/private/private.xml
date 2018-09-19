@@ -5,7 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/simpleCRUD/app/Http/Controllers/CRUDcontroller.php</file>
             <file>file:/C:/xampp/htdocs/simpleCRUD/resources/views/feedb.blade.php</file>
-            <file>file:/C:/xampp/htdocs/simpleCRUD/resources/views/form.blade.php</file>
+            <file>file:/C:/xampp/htdocs/simpleCRUD/composer.lock</file>
             <file>file:/C:/xampp/htdocs/simpleCRUD/routes/web.php</file>
         </group>
     </open-files>
