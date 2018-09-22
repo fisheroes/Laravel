@@ -16,21 +16,6 @@
         <script>
             $(document).ready(function() {
                 /////
-                var email = document.getElementById("email");
-                
-                email.addEventListener("invalid", function (event) {
-                    var message = this.value + 'Email Tidak Boleh Kosong !';
-                    email.setCustomValidity(message);
-                });
-
-                email.addEventListener("input", function (event) {
-                    if (email.validity.typeMismatch){
-                        email.setCustomValidity("Format Email salah !");
-                    } else {
-                        email.setCustomValidity("");
-                    }
-                });
-                
                 
                 /////
             });

@@ -13,3 +13,4 @@
 
 Route::match(['get','post'],'/', 'CRUDcontroller@form');
 Route::match(['get','post'],'/feedb/{filename}','CRUDcontroller@feedb');
+Route::get('/error', 'CRUDCOntroller@error');
