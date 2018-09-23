@@ -12,7 +12,7 @@ ketik "git remote add origin https://github.com/fisheroes/Laravel.git" menghubun
 
 ketik "git add ." menambahkan file project berdasarkan .gitignore
 
-ketik "git commit -m "Init commit"" menyimpan file project ke Head beserta record untuk diantar ke repository
+ketik "git commit -m "nama_commit"" menyimpan file project ke Head beserta record untuk diantar ke repository
 
 ketik "git push -u origin master" memindahkan file ke repository github
 
@@ -32,7 +32,7 @@ ketik "heroku buildpacks:set heroku/php" untuk set build project ke php
 
 "$ git add ." untuk menandai file
 
-"$ git commit -m "Init commit"" merekam perubahan file
+"$ git commit -m "nama_commit"" merekam perubahan file
 
 "$ git push heroku master" deploy ke heroku
 
